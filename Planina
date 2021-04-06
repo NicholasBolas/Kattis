@@ -1,0 +1,6 @@
+def Plan(n):
+    l = 2 ** n
+    ans = (l+1) * (l+1)
+    print(ans)
+    
+Plan(int(input()))
