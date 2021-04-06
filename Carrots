@@ -1,0 +1,7 @@
+a,b = map(int,input().split())
+ans = a * b
+desc = " "
+for i in range(a):
+    desc += input()
+
+print(b)
