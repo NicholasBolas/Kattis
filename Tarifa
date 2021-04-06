@@ -1,0 +1,6 @@
+hpm = int(input())
+mnts = int(input())
+total = (mnts+1) * hpm
+for i in range(mnts):
+    total -= int(input())
+print(total)
