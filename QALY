@@ -1,0 +1,6 @@
+answer = 0
+
+for i in range(int(input())):
+    q,y = map(float, input().split())
+    answer += q * y
+print(answer)    
