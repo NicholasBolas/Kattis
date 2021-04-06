@@ -1,0 +1,8 @@
+name = input()
+length = len(name)
+abb = name[0]
+for i in range(length):
+    if name[i] == "-":
+        abb += name[i+1]
+    
+print(abb)    
