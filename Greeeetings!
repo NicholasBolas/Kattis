@@ -1,0 +1,4 @@
+string = input()
+e = "e"
+r = string.count(e)
+print("h"+e*r*2+"y")
