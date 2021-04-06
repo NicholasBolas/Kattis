@@ -1,0 +1,10 @@
+cases = int(input())
+for i in range(cases):
+    r, e, c = map(float, input().split())
+    prof = e - c
+    if r < prof:
+        print("advertise")
+    elif r > prof:
+        print("do not advertise")
+    else:
+        print("does not matter")
