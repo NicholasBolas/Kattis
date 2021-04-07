@@ -1,0 +1,4 @@
+time = int(input())
+for i in range(time):
+    t = i+1
+    print(str(t) + " Abracadabra\n")
