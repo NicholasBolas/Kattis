@@ -1,0 +1,16 @@
+press=int(input())
+run=False
+total=0
+prevtime=0
+for i in range(press):
+    currtime=int(input())
+    if(run):
+        total += currtime - prevtime
+        
+    prevtime = currtime
+    run = not run
+    
+if(run):
+    print("still running")
+else:
+    print(total)
